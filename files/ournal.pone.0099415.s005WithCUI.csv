@@ -1,0 +1,71 @@
+,Disease_Name_1,DOID_1,Disease_Name_2,DOID_2,CUI1,CUI2
+0,Alzheimer's Disease,DOID:10652,Schizophrenia,DOID:5419,C0002395,C0029838
+1,Alzheimer's Disease,DOID:10652,Mental Depression,DOID:1596,C0002395,C0011570
+2,Alzheimer's Disease,DOID:10652,Bipolar Disorder,DOID:3312,C0002395,C0005586
+3,Alzheimer's Disease,DOID:10652,Epilepsy,DOID:1826,C0002395,C0014544
+4,Alzheimer's Disease,DOID:10652,Diabetes Mellitus,DOID:9351,C0002395,C0011849
+5,Anemia,DOID:2355,Endometriosis,DOID:289,C0002871,C0014175
+6,Asthma,DOID:2841,Rheumatoid Arthritis,DOID:7148,C0004096,C0003873
+7,Asthma,DOID:2841,Diabetes Mellitus,DOID:9351,C0004096,C0011849
+8,Asthma,DOID:2841,Obesity,DOID:9970,C0004096,C0028754
+9,Asthma,DOID:2841,Chronic Obstructive Airway Disease,DOID:3083,C0004096,C0024117
+10,Bipolar Disorder,DOID:3312,Schizophrenia,DOID:5419,C0005586,C0029838
+11,"Cardiomyopathy, Dilated",DOID:12930,"Hyperlipidemia, Familial Combined",DOID:13809,C0007193,C0020474
+12,"Cardiomyopathy, Dilated",DOID:12930,Myocardial Infarction,DOID:5844,C0007193,C0027051
+13,"Cardiomyopathy, Dilated",DOID:12930,Diabetes Mellitus,DOID:9351,C0007193,C0011849
+14,"Cardiomyopathy, Dilated",DOID:12930,Lipid disorder,DOID:9455,C0007193,C0029591
+15,"Cardiomyopathy, Dilated",DOID:12930,Obesity,DOID:9970,C0007193,C0028754
+16,Chronic Obstructive Airway Disease,DOID:3083,Rheumatoid Arthritis,DOID:7148,C0024117,C0003873
+17,Chronic Obstructive Airway Disease,DOID:3083,Myocardial Infarction,DOID:5844,C0024117,C0027051
+18,Chronic progressive external ophthalmoplegia,DOID:12558,"Cardiomyopathy, Dilated",DOID:12930,C0162674,C0007193
+19,Diabetes Mellitus,DOID:9351,Obesity,DOID:9970,C0011849,C0028754
+20,Diabetes Mellitus,DOID:9351,Lipid disorder,DOID:9455,C0011849,C0029591
+21,Endometriosis,DOID:289,Rheumatoid Arthritis,DOID:7148,C0014175,C0003873
+22,Epilepsy,DOID:1826,Multiple Sclerosis,DOID:2377,C0014544,C0026769
+23,Epilepsy,DOID:1826,Schizophrenia,DOID:5419,C0014544,C0029838
+24,Huntington Disease,DOID:12858,Mental Depression,DOID:1596,C0020179,C0011570
+25,Huntington Disease,DOID:12858,Epilepsy,DOID:1826,C0020179,C0014544
+26,Huntington Disease,DOID:12858,Bipolar Disorder,DOID:3312,C0020179,C0005586
+27,Huntington Disease,DOID:12858,Schizophrenia,DOID:5419,C0020179,C0029838
+28,"Hyperlipidemia, Familial Combined",DOID:13809,Diabetes Mellitus,DOID:9351,C0020474,C0011849
+29,"Hyperlipidemia, Familial Combined",DOID:13809,Lipid disorder,DOID:9455,C0020474,C0029591
+30,"Hyperlipidemia, Familial Combined",DOID:13809,Myocardial Infarction,DOID:5844,C0020474,C0027051
+31,"Hyperlipidemia, Familial Combined",DOID:13809,Obesity,DOID:9970,C0020474,C0028754
+32,"Infertility, Male",DOID:12336,Obesity,DOID:9970,C0021364,C0028754
+33,"Infertility, Male",DOID:12336,"Hyperlipidemia, Familial Combined",DOID:13809,C0021364,C0020474
+34,"Infertility, Male",DOID:12336,Cystic Fibrosis,DOID:1485,C0021364,C0010674
+35,lipid disorder,DOID:9455,Obesity,DOID:9970,C0029591,C0028754
+36,Malaria,DOID:12365,Epilepsy,DOID:1826,C0024530,C0014544
+37,Malaria,DOID:12365,Anemia,DOID:2355,C0024530,C0002871
+38,Mental Depression,DOID:1596,Bipolar Disorder,DOID:3312,C0011570,C0005586
+39,Mental Depression,DOID:1596,Schizophrenia,DOID:5419,C0011570,C0029838
+40,Multiple Sclerosis,DOID:2377,Diabetes Mellitus,DOID:9351,C0026769,C0011849
+41,Myocardial Infarction,DOID:5844,Diabetes Mellitus,DOID:9351,C0027051,C0011849
+42,Myocardial Infarction,DOID:5844,Obesity,DOID:9970,C0027051,C0028754
+43,Myocardial Infarction,DOID:5844,Lipid disorder,DOID:9455,C0027051,C0029591
+44,Polycystic Kidney Diseases,DOID:898,Diabetes Mellitus,DOID:9351,C0022680,C0011849
+45,Polycystic Ovary Syndrome,DOID:11612,Obesity,DOID:9970,C0032460,C0028754
+46,Polycystic Ovary Syndrome,DOID:11612,Diabetes Mellitus,DOID:9351,C0032460,C0011849
+47,Polycystic Ovary Syndrome,DOID:11612,Myocardial Infarction,DOID:5844,C0032460,C0027051
+48,Polycystic Ovary Syndrome,DOID:11612,Lipid disorder,DOID:9455,C0032460,C0029591
+49,Rheumatoid Arthritis,DOID:7148,Diabetes Mellitus,DOID:9351,C0003873,C0011849
+50,Sarcoidosis,DOID:11335,"Cardiomyopathy, Dilated",DOID:12930,C0036202,C0007193
+51,Sarcoidosis,DOID:11335,Chronic Obstructive Airway Disease,DOID:3083,C0036202,C0024117
+52,goiter,DOID:12176,hypothyroidism,DOID:1459,C0018021,C0020676
+53,arteriosclerosis,DOID:2349,ischemia,DOID:326,C0003850,C0022116
+54,influenza,DOID:8469,pneumonia,DOID:552,C0021400,C0032285
+55,encephalitis,DOID:9588,meningitis,DOID:9471,C0014038,C0025289
+56,atherosclerosis,DOID:1936,ischemia,DOID:326,C0004153,C0022116
+57,arthritis,DOID:848,amyloidosis,DOID:9120,C0003864,C0002726
+58,bronchitis,DOID:6132,pneumonia,DOID:552,C0149514,C0032285
+59,myositis,DOID:633,myopathy,DOID:423,C0027121,C0026848
+60,hemochromatosis,DOID:2352,arthritis,DOID:848,C0018995,C0003864
+61,fungal infectious disease,DOID:1564,meningitis,DOID:9471,C0026946,C0025289
+62,pneumonia,DOID:552,meningitis,DOID:9471,C0032285,C0025289
+63,leukopenia,DOID:615,pneumonia,DOID:552,C0023530,C0032285
+64,goiter,DOID:12176,scleroderma,DOID:419,C0018021,C0011644
+65,epilepsy syndrome,DOID:1826,ischemia,DOID:326,C0014544,C0022116
+66,cataract,DOID:83,pancreatitis,DOID:4989,C0029531,C0030305
+67,atherosclerosis,DOID:1936,influenza,DOID:8469,C0004153,C0021400
+68,cataract,DOID:83,epilepsy syndrome,DOID:1826,C0029531,C0014544
+69,osteoporosis,DOID:11476,cardiomyopathy,DOID:0050700,C0029456,C0033141

@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<!--[if lt IE 9 ]><html class="no-js oldie" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+
+<head>
+
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>Concept embedding to measure semantic relatedness for biomedical information ontologies</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- script
+    ================================================== -->
+    <script src="js/modernizr.js"></script>
+    <script src="js/pace.min.js"></script>
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+    <!-- custom -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+
+<body id="top">
+
+    <!-- header
+    ================================================== -->
+    <header class="s-header">
+
+        <div class="header-logo">
+            <a class="site-logo" href="index.html">
+                <img src="images/logo.png" alt="Homepage">
+            </a>
+        </div>
+
+        <nav class="header-nav">
+
+            <a href="#0" class="header-nav__close" title="close"><span>Close</span></a>
+
+            <div class="header-nav__content">
+                <h3>Navigation</h3>
+
+                <ul class="header-nav__list">
+                    <li class="current"><a class="smoothscroll"  href="#home" title="home">Home</a></li>
+                    <li><a class="smoothscroll"  href="#about" title="abstract">Abstract</a></li>
+                    <li><a class="smoothscroll"  href="#services" title="methods">Methods</a></li>
+                    <li><a class="smoothscroll"  href="#works" title="demo">Demo</a></li>
+                    <li><a class="smoothscroll"  href="#clients" title="resources">Resources</a></li>
+                    <li><a class="smoothscroll"  href="#contact" title="contact">Contact</a></li>
+                </ul>
+
+                <!--
+                <p>Perspiciatis hic praesentium nesciunt. Et neque a dolorum <a href='#0'>voluptatem</a> porro iusto sequi veritatis libero enim. Iusto id suscipit veritatis neque reprehenderit.</p>
+
+                <ul class="header-nav__social">
+                    <li>
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-instagram"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-behance"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-dribbble"></i></a>
+                    </li>
+                </ul>
+                -->
+
+            </div> <!-- end header-nav__content -->
+
+        </nav>  <!-- end header-nav -->
+
+        <a class="header-menu-toggle" href="#0">
+            <span class="header-menu-text">Menu</span>
+            <span class="header-menu-icon"></span>
+        </a>
+
+    </header> <!-- end s-header -->
+
+
+    <!-- home
+    ================================================== -->
+    <section id="home" class="s-home target-section" data-parallax="scroll" data-image-src="images/hero-bg.jpg" data-natural-width=3000 data-natural-height=2000 data-position-y=center>
+
+        <div class="overlay"></div>
+        <div class="shadow-overlay"></div>
+
+        <div class="home-content">
+
+            <div class="trow home-content__main">
+
+                <h3>Concept embedding to measure semantic relatedness for biomedical information ontologies</h3>
+
+                <h1>
+                    We generated information not in <br>
+                    <a href="https://www.nlm.nih.gov/research/umls/" target="_blank">UMLS</a> for wide coverage and utilized <br>
+                    state-of-the-art embedding methods <br>
+                    to obtain performance <br>
+                    for relatedness measure.
+                </h1>
+
+                <div class="home-content__buttons">
+                    <a href="#about" class="smoothscroll tbtn tbtn--stroke">
+                        More About
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="home-content__scroll">
+                <a href="#about" class="scroll-link smoothscroll">
+                    <span>Scroll Down</span>
+                </a>
+            </div>
+
+            <div class="home-content__line"></div>
+
+        </div> <!-- end home-content -->
+
+        <!--
+
+        <ul class="home-social">
+            <li>
+                <a href="#0"><i class="fa fa-facebook" aria-hidden="true"></i><span>Facebook</span></a>
+            </li>
+            <li>
+                <a href="#0"><i class="fa fa-twitter" aria-hidden="true"></i><span>Twiiter</span></a>
+            </li>
+            <li>
+                <a href="#0"><i class="fa fa-instagram" aria-hidden="true"></i><span>Instagram</span></a>
+            </li>
+            <li>
+                <a href="#0"><i class="fa fa-behance" aria-hidden="true"></i><span>Behance</span></a>
+            </li>
+            <li>
+                <a href="#0"><i class="fa fa-dribbble" aria-hidden="true"></i><span>Dribbble</span></a>
+            </li>
+        </ul>
+        -->
+        <!-- end home-social -->
+
+    </section> <!-- end s-home -->
+
+
+    <!-- about
+    ================================================== -->
+    <section id='about' class="s-about">
+
+        <div class="trow section-header has-bottom-sep" data-aos="fade-up">
+            <div class="col-full">
+                <h3 class="subhead subhead--dark">What we do</h3>
+                <h1 class="display-1 display-1--light">Abstract</h1>
+            </div>
+        </div> <!-- end section-header -->
+
+        <div class="trow about-desc" data-aos="fade-up">
+            <div class="col-full">
+                    <p>
+                        There have been many attempts to identify relations among concepts corresponding to terms from Unified Medical Language System (UMLS). One promising category of attempts is relatedness measures and a representative of these measures is the vector method which is based on UMLS definition texts. However, there are two limitations to the method: (1) narrow coverage, (2) concerns about performance. Therefore, we propose a concept embedding model for UMLS semantic relatedness measure to overcome the limitations. We generated information not in UMLS for wide coverage and utilized state-of-the-art embedding methods to obtain performance for relatedness measure. As a result, we validated that our method provides approximately 4.77% higher coverage and 0.159 performance improvement over the vector method. Furthermore, we believe that our method is not limited to UMLS and may be used to calculate various other biomedical terms’ similarity.
+                    </p>
+
+            </div>
+        </div> <!-- end about-desc -->
+
+        <!--
+        <div class="trow about-stats stats block-1-4 block-m-1-2 block-mob-full" data-aos="fade-up">
+
+            <div class="col-block stats__col ">
+                <div class="stats__count">998543</div>
+                <h5>Integrated UMLS definitions</h5>
+            </div>
+            <div class="col-block stats__col">
+                <div class="stats__count">964785</div>
+                <h5>New definitions</h5>
+            </div>
+            <div class="col-block stats__col">
+                <div class="stats__count">109</div>
+                <h5>Projects Completed</h5>
+            </div>
+            <div class="col-block stats__col">
+                <div class="stats__count">102</div>
+                <h5>Happy Clients</h5>
+            </div>
+
+        </div>
+        -->
+         <!-- end about-stats -->
+
+
+        <div class="about__line"></div>
+
+    </section> <!-- end s-about -->
+
+
+    <!-- services
+    ================================================== -->
+    <section id='services' class="s-services">
+
+        <div class="trow section-header has-bottom-sep" data-aos="fade-up">
+            <div class="col-full">
+                <h3 class="subhead">Materials and Methods</h3>
+                <h1 class="display-2">We propose a method which solves the coverage limitations of conventional vector-based UMLS relatedness measures and shows improved performance.
+                </h1>
+            </div>
+        </div> <!-- end section-header -->
+
+        <div class="trow services-list block-1-2 block-tab-full">
+
+            <div class="col-block service-item" data-aos="fade-up">
+                <div class="service-icon">
+
+                    <i class="icon-lego-block"></i>
+                </div>
+                <div class="service-text">
+                    <h3 class="h2">Extension of definition of UMLS CUI for feature vector extraction</h3>
+                    <p>UMLS database contains CUI concept definition information for only a small portion of CUI concepts,
+                        limiting the potential coverage of relatedness measures. In the case of UMLS2015, only 162,973 CUI concepts (6.5% of CUI concepts)
+                        contain definition information. We have used two methods to expand CUI definition texts that UMLS database does not offer.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-block service-item" data-aos="fade-up">
+                <div class="service-icon">
+                    <i class="icon-group"></i>
+                </div>
+                <div class="service-text">
+                    <h3 class="h2">Model generation with a document embedding method for UMLS CUI feature vector generation</h3>
+                    <p>We analyzed the relationship between a CUI and a definition of the CUI and concluded that it is a label relationship,
+                        not an inclusive relationship. We found that CUI is a label and a definition of CUI is a feature. Then we utilized a
+                        previous method which is based on state-of-the-art word and document embedding techniques.
+                    </p>
+                </div>
+            </div>
+
+            <!--
+            <div class="col-block service-item" data-aos="fade-up">
+                <div class="service-icon">
+                    <i class="icon-megaphone"></i>
+                </div>
+                <div class="service-text">
+                    <h3 class="h2">Marketing</h3>
+                    <p>Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum laudantium.
+                    Quo delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis.
+                    Sunt suscipit voluptas ipsa in tempora esse soluta sint.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-block service-item" data-aos="fade-up">
+                <div class="service-icon">
+                    <i class="icon-earth"></i>
+                </div>
+                <div class="service-text">
+                    <h3 class="h2">Web Design</h3>
+                    <p>Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum laudantium.
+                    Quo delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis.
+                    Sunt suscipit voluptas ipsa in tempora esse soluta sint.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-block service-item" data-aos="fade-up">
+                <div class="service-icon">
+                    <i class="icon-cube"></i>
+                </div>
+                <div class="service-text">
+                    <h3 class="h2">Packaging Design</h3>
+                    <p>Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum laudantium.
+                    Quo delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis.
+                    Sunt suscipit voluptas ipsa in tempora esse soluta sint.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-block service-item" data-aos="fade-up">
+                <div class="service-icon"><i class="icon-lego-block"></i></div>
+                <div class="service-text">
+                    <h3 class="h2">Web Development</h3>
+                    <p>Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum laudantium.
+                    Quo delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis.
+                    Sunt suscipit voluptas ipsa in tempora esse soluta sint.
+                    </p>
+                </div>
+            </div>
+
+            -->
+
+        </div> <!-- end services-list -->
+
+    </section> <!-- end s-services -->
+
+
+    <!-- works
+    ================================================== -->
+    <section id='works' class="s-works">
+
+        <div class="intro-wrap">
+
+            <div class="trow section-header has-bottom-sep light-sep" data-aos="fade-up">
+                <div class="col-full">
+                    <h3 class="subhead">Demo</h3>
+                    <h1 class="display-2 display-2--light">You can use our model to calculate UMLS relatedness</h1>
+                </div>
+            </div> <!-- end section-header -->
+
+        </div> <!-- end intro-wrap -->
+
+
+        <div class="trow works-content">
+            <div class="home-content__buttons">
+                <center>
+                <a href="#" class="tbtn tbtn--stroke" data-toggle="modal" data-target="#modal">
+                    Open Demo page
+                </a><center>
+            </div>
+        </div> <!-- end works-content -->
+
+    </section> <!-- end s-works -->
+    <div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modalLabel">Similarity search demo (working..)</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="outline: none">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="modal-wrap">
+              <div id="modal-ibox" class="form-group">
+                <input type="text" class="form-control" placeholder="">
+              </div>
+              <div id="modal-bbox">
+                <button type="button" class="btn btn-outline-primary btn-lg">Search</button>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-outline-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-success">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <style media="screen">
+      .modal h5 {
+        font-size: 34px;
+      }
+      .modal p, .modal button, .modal input {
+        font-size: 18px;
+      }
+      .modal span {
+        font-size: 34px;
+      }
+      .modal-header .close {
+        padding-top: 15px;
+      }
+      @media (min-width: 576px) {
+        .modal-dialog {
+          max-width: 700px;
+        }
+      }
+      .modal-wrap {
+        display: flex;
+      }
+      .modal-header, .modal-body, .modal-footer {
+        padding: 1.5rem 2rem
+      }
+      #modal-ibox {
+        flex-grow: 1;
+      }
+      #modal-ibox input {
+        padding: 1rem 0;
+        outline: none !important;
+        border-bottom: 1px solid #777;
+        border-radius: 0px;
+        height: auto;
+        font-size: 34px;
+      }
+      #modal-bbox {
+        flex-grow: 0;
+        width: 110px;
+        text-align: right;
+      }
+    </style>
+
+
+    <!-- clients
+    ================================================== -->
+
+    <section id="clients" class="s-clients">
+
+        <div class="trow section-header" data-aos="fade-up">
+            <div class="col-full">
+                <h3 class="subhead">Resources</h3>
+                <h1 class="display-2">
+                    Anyone can use our resources for further research
+                </h1>
+            </div>
+        </div>
+
+         <!-- end section-header -->
+
+        <div class="trow clients-outer" data-aos="fade-up">
+            <div class="col-full">
+                <div class="clients">
+
+                    <a href="https://www.dropbox.com/s/xxlm0kj5i1tx0a5/Data.zip?dl=0" title="" class="clients__slide"><img src="images/clients/database.png" /></a>
+                    <a href="https://www.dropbox.com/s/3718gnkyos4sod8/UMLS_DOC_MODEL_20170816_PathSet_epoch30_layer300_batch_1000_iteration_10_allOn.txt?dl=0" title="" class="clients__slide"><img src="images/clients/model.png" /></a>
+                    <a href="#0" title="" class="clients__slide"><img src="images/clients/code.png" /></a>
+                    <a href="#0" title="" class="clients__slide"><img src="images/clients/paper.png" /></a>
+                    <!--
+                    <a href="#0" title="" class="clients__slide"><img src="images/clients/envato.png" /></a>
+                    <a href="#0" title="" class="clients__slide"><img src="images/clients/firefox.png" /></a>
+                    <a href="#0" title="" class="clients__slide"><img src="images/clients/joomla.png" /></a>
+                    <a href="#0" title="" class="clients__slide"><img src="images/clients/magento.png" /></a>
+                    -->
+
+                </div> <!-- end clients -->
+            </div> <!-- end col-full -->
+        </div> <!-- end clients-outer -->
+
+        <div class="trow about-desc" data-aos="fade-up">
+            <div class="col-full">
+                <p>To acknowledge use of the resource, please cite the following paper:<br>
+                   <b> Junseok Park, Kwangmin Kim, Seongkuk Park, Woochang Hwang, Doheon Lee, Concept embedding to measure semantic relatedness for biomedical information ontologies, Journal of Biomedical Informatics (Submitted, 2018).
+                   </b>
+                </p>
+            </div>
+        </div>
+
+
+
+    </section> <!-- end s-clients -->
+
+
+    <!-- contact
+    ================================================== -->
+    <section id="contact" class="s-contact">
+
+        <div class="overlay"></div>
+        <div class="contact__line"></div>
+
+        <div class="trow section-header" data-aos="fade-up">
+            <div class="col-full">
+                <h3 class="subhead">Contact Us</h3>
+                <h1 class="display-2 display-2--light">Reach out for asking more question about our project</h1>
+            </div>
+        </div>
+
+        <div class="trow contact-content" data-aos="fade-up">
+
+
+            <div class="contact-primary">
+
+                <h3 class="h6">Where we are</h3>
+
+                <iframe width="100%" height="400px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d17110.32604787483!2d127.36749191500367!3d36.38552454721976!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x35654bb616ae884f%3A0x9fa607e06759a2c9!2z7ZWc6rWt6rO87ZWZ6riw7Iig7JuQ!5e0!3m2!1sko!2skr!4v1528441129821""></iframe>
+                <!--
+
+                <form name="contactForm" id="contactForm" method="post" action="" novalidate="novalidate">
+                    <fieldset>
+
+                    <div class="form-field">
+                        <input name="contactName" type="text" id="contactName" placeholder="Your Name" value="" minlength="2" required="" aria-required="true" class="full-width">
+                    </div>
+                    <div class="form-field">
+                        <input name="contactEmail" type="email" id="contactEmail" placeholder="Your Email" value="" required="" aria-required="true" class="full-width">
+                    </div>
+                    <div class="form-field">
+                        <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="" class="full-width">
+                    </div>
+                    <div class="form-field">
+                        <textarea name="contactMessage" id="contactMessage" placeholder="Your Message" rows="10" cols="50" required="" aria-required="true" class="full-width"></textarea>
+                    </div>
+                    <div class="form-field">
+                        <button class="full-width tbtn--primary">Submit</button>
+                        <div class="submit-loader">
+                            <div class="text-loader">Sending...</div>
+                            <div class="s-loader">
+                                <div class="bounce1"></div>
+                                <div class="bounce2"></div>
+                                <div class="bounce3"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    </fieldset>
+                </form>
+                -->
+
+                <!-- contact-warning -->
+                <!--
+                <div class="message-warning">
+                    Something went wrong. Please try again.
+                </div>
+                -->
+
+                <!-- contact-success -->
+                <!--
+                <div class="message-success">
+                    Your message was sent, thank you!<br>
+                </div>
+                -->
+
+            </div> <!-- end contact-primary -->
+
+            <div class="contact-secondary">
+                <div class="contact-info">
+
+                    <h3 class="h6 hide-on-fullwidth">Contact Info</h3>
+
+                    <div class="cinfo">
+                        <h5>Where to Find Us</h5>
+                        <p>
+                            Jeongmoonsul bld, KAIST<br>
+                            Daejeon City<br>
+                            34141 Republic of Korea
+                        </p>
+                    </div>
+
+                    <div class="cinfo">
+                        <h5>Email Us At</h5>
+                        <p>
+                            corus@biosoft.kaist.ac.kr<br>
+                            junseokpark@biosoft.kaist.ac.kr
+                        </p>
+                    </div>
+
+                    <div class="cinfo">
+                        <h5>Call Us At</h5>
+                        <p>
+                            Phone: (+82) 42 350 4356<br>
+
+                    </div>
+
+                    <!--
+
+                    <ul class="contact-social">
+                        <li>
+                            <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a>
+                        </li>
+                    </ul> --> <!-- end contact-social -->
+
+                </div> <!-- end contact-info -->
+            </div> <!-- end contact-secondary -->
+
+        </div> <!-- end contact-content -->
+
+    </section> <!-- end s-contact -->
+
+
+    <!-- footer
+    ================================================== -->
+    <footer>
+
+        <div class="trow footer-main">
+
+            <div class="col-six tab-full left footer-desc">
+
+                <img class="footer-logo" src="images/logo-footer.png">
+                <font color="white">
+
+                Other projects: <br/>
+                <b>
+                    <a href="http://corus.kaist.edu/clips" target="_blank">CLIPS</a><br>
+                    <a href="https://corus.kaist.edu" target="_blank">CORUS</a><br>
+                </b>
+                </font>
+            </div>
+
+
+        </div> <!-- end footer-main -->
+
+        <div class="trow footer-bottom">
+
+            <div class="col-twelve">
+                <div class="copyright">
+                    <span>© Copyright CORUS Team 2018</span>
+                    <span>Site Template by <a href="https://www.colorlib.com/">Colorlib</a></span>
+                </div>
+
+                <div class="go-top">
+                    <a class="smoothscroll" title="Back to Top" href="#top"><i class="icon-arrow-up" aria-hidden="true"></i></a>
+                </div>
+            </div>
+
+        </div> <!-- end footer-bottom -->
+
+    </footer> <!-- end footer -->
+
+
+    <!-- photoswipe background
+    ================================================== -->
+    <div aria-hidden="true" class="pswp" role="dialog" tabindex="-1">
+
+        <div class="pswp__bg"></div>
+        <div class="pswp__scroll-wrap">
+
+            <div class="pswp__container">
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+            </div>
+
+            <div class="pswp__ui pswp__ui--hidden">
+                <div class="pswp__top-bar">
+                    <div class="pswp__counter"></div><button class="pswp__button pswp__button--close" title="Close (Esc)"></button> <button class="pswp__button pswp__button--share" title=
+                    "Share"></button> <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button> <button class="pswp__button pswp__button--zoom" title=
+                    "Zoom in/out"></button>
+                    <div class="pswp__preloader">
+                        <div class="pswp__preloader__icn">
+                            <div class="pswp__preloader__cut">
+                                <div class="pswp__preloader__donut"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                    <div class="pswp__share-tooltip"></div>
+                </div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button> <button class="pswp__button pswp__button--arrow--right" title=
+                "Next (arrow right)"></button>
+                <div class="pswp__caption">
+                    <div class="pswp__caption__center"></div>
+                </div>
+            </div>
+
+        </div>
+
+    </div> <!-- end photoSwipe background -->
+
+
+    <!-- preloader
+    ================================================== -->
+    <div id="preloader">
+        <div id="loader">
+            <div class="line-scale-pulse-out">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>

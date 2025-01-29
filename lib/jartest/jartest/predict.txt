@@ -1,0 +1,21 @@
+Entity|Startpoint|Endpoint|CHID|MESH|ChEBI|CAS|InChI|DrugBank
+D-Ser-(But),6|51|64|null|null|null|null|null|null
+des-Gly-NH210|66|79|null|null|null|null|null|null
+ethylamide|85|95|null|null|null|null|InChI=1S/C2H6N/c1-2-3/h3H,2H2,1H3/q-1|null
+FSH|105|108|009002680|D005640|null|9002-68-0|null|DB00066
+diethylstilbestrol|48|66|000056531|D004054|CHEBI:41922|56-53-1|InChI=1S/C18H20O2/c1-3-17(13-5-9-15(19)10-6-13)18(4-2)14-7-11-16(20)12-8-14/h5-12,19-20H,3-4H2,1-2H3/b18-17+|DB00255
+NIH-FSH-S13|131|142|null|null|null|null|null|null
+3H2O|260|264|null|null|null|null|null|null
+[1 beta-3H]testosterone|270|293|null|null|null|null|null|null
+FSH|362|365|009002680|D005640|null|9002-68-0|null|DB00066
+3H2O|423|427|null|null|null|null|null|null
+3H2O|515|519|null|null|null|null|null|null
+(Bu)2cAMP|545|554|null|null|null|null|null|null
+3-isobutyl-l-methylxanthine|569|596|null|null|null|null|null|null
+FSH|126|129|009002680|D005640|null|9002-68-0|null|DB00066
+(Bu)2cAMP|149|158|null|null|null|null|null|null
+FSH|651|654|009002680|D005640|null|9002-68-0|null|DB00066
+(Bu)2cAMP|658|667|null|null|null|null|null|null
+FSH|669|672|009002680|D005640|null|9002-68-0|null|DB00066
+FSH|888|891|009002680|D005640|null|9002-68-0|null|DB00066
+FSH|1171|1174|009002680|D005640|null|9002-68-0|null|DB00066
